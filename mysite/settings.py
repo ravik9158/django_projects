@@ -22,7 +22,7 @@ APP_NAME = 'MyList'   # Add
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'g$iqqu&*mw4_sg3(#ld0sqaalxebel&168^yj%i&sgrw(fmn@w'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -174,7 +174,7 @@ LOGIN_REDIRECT_URL = '/'
 # https://coderwall.com/p/uzhyca/quickly-setup-sql-query-logging-django
 # https://stackoverflow.com/questions/12027545/determine-if-django-is-running-under-the-development-server
 
-'''  # Leave off for now
+# Leave off for now
 import sys
 if (len(sys.argv) >= 2 and sys.argv[1] == 'runserver'):
     print('Running locally')
@@ -194,4 +194,4 @@ if (len(sys.argv) >= 2 and sys.argv[1] == 'runserver'):
             },
         }
     }
-'''
+
